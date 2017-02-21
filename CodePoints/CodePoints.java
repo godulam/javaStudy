@@ -17,6 +17,7 @@ public class codePoints
 
 		String a = "elephant";
 		String b = "Elephant";
+		String c = "GlobalWarming";
 
 		System.out.println(a.equalsIgnoreCase(b));
 		System.out.println(b.startsWith("Ele"));
