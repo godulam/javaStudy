@@ -7,18 +7,18 @@ public class InputOutput
 		// construct new Scanner class object
 		Scanner in = new Scanner(System.in);
 
-		System.out.println("Czy lubisz placki?");
+		System.out.println("Do you like pancakes?");
 
-		String odpowiedz = in.next();
+		String answer = in.next();
 
-		if (odpowiedz.equalsIgnoreCase("tak")) 	{
-			System.out.println("BRAWO!!! Lubisz placki!");
+		if (answer.equalsIgnoreCase("yes")) 	{
+			System.out.println("Ho-ah!");
 		}
-		else if (odpowiedz.equalsIgnoreCase("nie")) {
-			System.out.println("Osz Ty dziadu! Jak mozna nie lubic plackow!?");
+		else if (answer.equalsIgnoreCase("no")) {
+			System.out.println("Daaumn!");
 		}
 		else {
-			System.out.println("Nie rozumiem Cie tepy mongole");
+			System.out.println("I don't understand");
 		}
 	}
 }
