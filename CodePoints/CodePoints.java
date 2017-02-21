@@ -19,7 +19,7 @@ public class codePoints
 		String b = "Elephant";
 
 		System.out.println(a.equalsIgnoreCase(b));
-		System.out.println(b.startsWith("ele"));
+		System.out.println(b.startsWith("Ele"));
 
 	}
 }
